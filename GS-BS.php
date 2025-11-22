@@ -8,7 +8,7 @@ register_plugin(
 	$thisfile, //Plugin id
 	'GS-BS',
 	'1.0',
-	'Team CE',
+	'CE Team',
 	'https://www.getsimple-ce.ovh/',
 	'Preserves raw backslashes (\) in content',
 	'plugins',
@@ -40,3 +40,4 @@ function RawBackslashPreserver_preserve($content) {
 
 // 3. Optional: Process excerpts too
 add_filter('excerpt', 'RawBackslashPreserver_process');
+
